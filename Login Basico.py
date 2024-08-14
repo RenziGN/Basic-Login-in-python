@@ -9,7 +9,7 @@ def NuevoUsuario():
         username = str(input("A continuacion ingrese un nombre de usuario: "))
     else: pass
     password = str(input("A continuacion ingrese la contraseña para este usuario: "))
-    while password.isspace() == True or username == "":
+    while password.isspace() == True or password == "":
         print("Su contraseña no puede estar vacia ")
         password = str(input("A continuacion ingrese la contraseña para este usuario: "))
     else: pass
